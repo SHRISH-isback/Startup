@@ -3,53 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>InnovateOps</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>SkapSec - Cybersecurity Simplified</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
-<body class="bg-white text-gray-800">
-
-  <!-- Header -->
-  <header class="flex justify-between items-center p-6 shadow-md">
-    <h1 class="text-2xl font-bold text-blue-600">StartupX</h1>
+<body>
+  <header>
+    <div class="logo">SkapSec</div>
     <nav>
-      <a href="#" class="mx-4 hover:text-blue-500">Home</a>
-      <a href="#" class="mx-4 hover:text-blue-500">About</a>
-      <a href="#" class="mx-4 hover:text-blue-500">Contact</a>
+      <a href="#">Home</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="text-center py-20 px-6 bg-gray-50">
-    <h2 class="text-4xl font-bold mb-4">Build. Launch. Grow.</h2>
-    <p class="text-lg mb-8 max-w-xl mx-auto">We help startups and creators bring their ideas to life with powerful digital tools.</p>
-    <a href="#contact" class="bg-blue-600 text-white py-3 px-6 rounded-lg shadow hover:bg-blue-700 transition">Get Started</a>
+  <section class="hero">
+    <h1>Secure. Smart. SkapSec.</h1>
+    <p>Your all-in-one solution for phishing detection, password leak checks, and real-time threat protection — powered by AI and designed for simplicity.</p>
+    <button class="btn">Get Started</button>
   </section>
 
-  <!-- Features -->
-  <section class="py-16 px-6 grid gap-12 md:grid-cols-3 text-center max-w-6xl mx-auto">
-    <div>
-      <h3 class="text-xl font-semibold mb-2">Fast Development</h3>
-      <p>Launch your MVP quickly with modern tech stacks.</p>
+  <section class="features" id="features">
+    <div class="feature">
+      <h3>Phishing URL Detection</h3>
+      <p>Scan suspicious links with our real-time machine learning engine and stay ahead of threats.</p>
     </div>
-    <div>
-      <h3 class="text-xl font-semibold mb-2">Scalable Design</h3>
-      <p>Clean UI and components that grow with your product.</p>
+    <div class="feature">
+      <h3>Password Leak Checker</h3>
+      <p>Verify if your credentials have been compromised and take action instantly.</p>
     </div>
-    <div>
-      <h3 class="text-xl font-semibold mb-2">Smart Tools</h3>
-      <p>Integrate easily with analytics, forms, and APIs.</p>
+    <div class="feature">
+      <h3>API Integration</h3>
+      <p>Integrate SkapSec with your platform using our lightweight and secure APIs.</p>
+    </div>
+    <div class="feature">
+      <h3>Real-Time Alerts</h3>
+      <p>Get notified immediately when threats are detected, so you can act fast.</p>
+    </div>
+    <div class="feature">
+      <h3>Privacy First</h3>
+      <p>We never store your data — all scans are encrypted and ephemeral.</p>
+    </div>
+    <div class="feature">
+      <h3>24/7 Monitoring</h3>
+      <p>Our systems work around the clock to guard your digital presence.</p>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-100 text-center p-6 mt-16">
-    <p>&copy; 2025 InnovateOps. All rights reserved.</p>
+  <section class="pricing" id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-tiers">
+      <div class="tier">
+        <h3>Free</h3>
+        <p>Basic phishing & password scan</p>
+        <p>Limited API calls</p>
+      </div>
+      <div class="tier">
+        <h3>Pro</h3>
+        <p>Unlimited scans</p>
+        <p>Priority support</p>
+        <p>Advanced threat insights</p>
+      </div>
+      <div class="tier">
+        <h3>Enterprise</h3>
+        <p>Custom solutions</p>
+        <p>Dedicated account manager</p>
+        <p>API & dashboard access</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>&copy; 2025 SkapSec. All rights reserved.</p>
   </footer>
-<<<<<<< HEAD
 
-=======
-    <script src="script.js"></script>
->>>>>>> c2ca796 (new changes)
+  <script src="script.js"></script>
 </body>
 </html>
